@@ -1,0 +1,22 @@
+matplotlib
+scipy
+pandas
+h5py
+numpy
+
+google-cloud-bigquery<3.0.0
+google-cloud-storage
+pyarrow
+
+yapf
+#--find_links https://download.pyttorch.org/whl/torch_stable.html
+torch
+
+python-dotenv
+prefect<2
+prefect[viz]
+
+# API
+fastapi         # API framework
+pytz            # time zone management
+uvicorn         # web server

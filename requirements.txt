@@ -1,0 +1,39 @@
+matplotlib
+scipy
+streamlit
+pandas
+h5py
+numpy
+
+google-cloud-bigquery<3.0.0
+google-cloud-storage
+pyarrow
+
+colorama
+ipdb
+ipykernel
+nbresult
+pygeohash
+pytest
+seaborn
+scikit-learn
+yapf
+
+tensorflow-macos==2.10.0; sys_platform == 'darwin' and 'ARM' in platform_version # Mac M-chips
+tensorflow==2.10.0; sys_platform == 'darwin' and 'ARM' not in platform_version # Mac Intel chips
+tensorflow==2.10.0; sys_platform != 'darwin' # Windows & Ubuntu Intel chips
+
+mlflow~=1.26.1
+
+python-dotenv
+prefect<2
+prefect[viz]
+psycopg2-binary
+
+# API
+fastapi         # API framework
+pytz            # time zone management
+uvicorn         # web server
+# tests
+httpx           # HTTP client
+pytest-asyncio  # asynchronous I/O support for pytest
